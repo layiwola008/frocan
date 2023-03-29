@@ -8,6 +8,7 @@ export default function Home({ posts }) {
     <div className="container mx-auto px-10 mb-8">
       <Head>
         <title>FroCan Consulting</title>
+        <meta name="description" content="Browse a huge list of software products that will improve your internet marketing." />
       </Head>
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
